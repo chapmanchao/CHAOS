@@ -1,0 +1,40 @@
+# Quality policy and required-check topology are maintainer-owned.
+/.github/workflows/ @chapmanchao
+/.github/CODEOWNERS @chapmanchao
+/.github/copilot-instructions.md @chapmanchao
+/.github/pull_request_template.md @chapmanchao
+/AGENTS.md @chapmanchao
+**/AGENTS.md @chapmanchao
+/CONTRIBUTING.md @chapmanchao
+/docs/en/internals/contributing.md @chapmanchao
+/docs/internals/contributing.md @chapmanchao
+/scripts/pr/ @chapmanchao
+/scripts/quality-gate/ @chapmanchao
+
+# Cross-process and provider boundaries carry a wider blast radius.
+/desktop/electron/ @chapmanchao
+/desktop/scripts/ @chapmanchao
+/desktop/src/api/providers* @chapmanchao
+/desktop/src/api/websocket* @chapmanchao
+/desktop/src/lib/providerSettingsJson* @chapmanchao
+/desktop/src/pages/ActiveSession* @chapmanchao
+/desktop/src/pages/EmptySession* @chapmanchao
+/desktop/src/stores/chatStore* @chapmanchao
+/desktop/src/stores/providerStore* @chapmanchao
+/desktop/src/stores/sessionRuntimeStore* @chapmanchao
+/desktop/src/lib/persistenceMigrations* @chapmanchao
+/src/server/api/providers* @chapmanchao
+/src/server/config/provider* @chapmanchao
+/src/server/proxy/ @chapmanchao
+/src/server/services/conversationService* @chapmanchao
+/src/server/services/persistentStorageMigrations* @chapmanchao
+/src/server/services/openaiOfficialProvider* @chapmanchao
+/src/server/services/provider* @chapmanchao
+/src/server/types/provider* @chapmanchao
+/src/server/ws/ @chapmanchao
+/src/services/api/client* @chapmanchao
+/src/services/compact/autoCompact* @chapmanchao
+/src/services/openaiAuth/ @chapmanchao
+/src/utils/managedEnv* @chapmanchao
+/src/utils/model/ @chapmanchao
+/src/utils/providerManagedEnvCompat* @chapmanchao
