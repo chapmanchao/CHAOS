@@ -1,0 +1,187 @@
+# CHAOS
+
+<p align="center">
+  <img src="docs/images/readme-cover-zh.jpg" alt="CHAOS — Claude Code 开源桌面端" width="960">
+</p>
+
+<div align="center">
+
+[![GitHub Stars](https://img.shields.io/github/stars/chapmanchao/CHAOS?style=social)](https://github.com/chapmanchao/CHAOS/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/chapmanchao/CHAOS?style=social)](https://github.com/chapmanchao/CHAOS/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/chapmanchao/CHAOS)](https://github.com/chapmanchao/CHAOS/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/chapmanchao/CHAOS)](https://github.com/chapmanchao/CHAOS/pulls)
+[![License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/chapmanchao/CHAOS/blob/main/LICENSE)
+[![中文](https://img.shields.io/badge/🇨🇳_简体中文-当前-blue)](README.zh-CN.md)
+[![English](https://img.shields.io/badge/🇺🇸_English-Available-green)](README.md)
+[![Docs](https://img.shields.io/badge/📖_文档站点-Visit-FF7A00)](https://github.com/chapmanchao/CHAOS)
+
+**简体中文** · [English](README.md)
+
+</div>
+
+CHAOS 是一个**桌面端 Claude Code 工作台**：多会话与全局搜索、分支 / Worktree 启动、Diff 审阅、内置浏览器预览、图形化权限审批、模型自选（Claude / ChatGPT / Grok / 预设 / 本地端点）、图片生成、MCP 与 SubAgent 可视化管理、Agent Teams 协作工作台、动态 Workflow 编排、模型请求追踪、Computer Use、技能市场、多主题、桌面宠物、H5 远程访问、IM 接入和定时任务，集中在一个 macOS / Windows / Linux APP 里。
+
+<p align="center">
+  <a href="#桌面端预览">桌面端预览</a> · <a href="#安装桌面端">安装桌面端</a> · <a href="#桌面端亮点">桌面端亮点</a> · <a href="#更多文档">更多文档</a> · <a href="#赞助与合作">赞助与合作</a> · <a href="#反馈与交流">反馈与交流</a>
+</p>
+
+---
+
+## 桌面端预览
+
+<p align="center">
+  <a href="https://github.com/chapmanchao/CHAOS/releases"><img src="https://img.shields.io/badge/⬇_下载桌面端-macOS_%7C_Windows_%7C_Linux-FF7A00?style=for-the-badge" alt="下载桌面端"></a>
+</p>
+
+<table>
+  <tr>
+    <td align="center" width="33.33%"><img src="docs/images/app/zh-CN/session-new.webp" alt="第一次任务前的空会话"><br><b>从清爽的空会话开始</b><br><sub>项目和权限都在首屏</sub></td>
+    <td align="center" width="33.33%"><img src="docs/images/app/zh-CN/session-main.webp" alt="打开活动面板的真实执行中任务"><br><b>跟着任务一步步往前</b><br><sub>工具调用与阶段进度都留在眼前</sub></td>
+    <td align="center" width="33.33%"><img src="docs/images/app/zh-CN/workspace-diff.webp" alt="工作区 Diff 评审"><br><b>改了什么，逐行看清楚</b><br><sub>放大的高亮 Diff，文字和代码更清楚</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="33.33%"><img src="docs/images/app/zh-CN/workspace-preview.webp" alt="内置浏览器预览刚改完的页面"><br><b>改完当场验证</b><br><sub>内置浏览器打开真实本地页面</sub></td>
+    <td align="center" width="33.33%"><img src="docs/images/app/zh-CN/model-picker.webp" alt="显示服务商、预设和本地端点的模型选择器"><br><b>每条会话自选模型</b><br><sub>自己的服务商、预设和本地端点都在一个列表里</sub></td>
+    <td align="center" width="33.33%"><img src="docs/images/app/zh-CN/skill-market.webp" alt="技能市场"><br><b>缺什么手艺装什么</b><br><sub>来源和安全状态摆在明处</sub></td>
+  </tr>
+</table>
+
+---
+
+## 赞助与合作
+
+本项目由个人利用业余时间维护，欢迎企业或个人赞助支持持续开发，也可洽谈定制、集成或商务合作。
+
+<table>
+  <thead>
+    <tr>
+      <th width="220">赞助商</th>
+      <th align="left">介绍</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=CHAOS">
+          <img src="docs/images/sponsors/atlascloud-logo-black.png#gh-light-mode-only" width="180" alt="Atlas Cloud">
+          <img src="docs/images/sponsors/atlascloud-logo-white.png#gh-dark-mode-only" width="180" alt="Atlas Cloud">
+        </a>
+      </td>
+      <td valign="middle">
+        感谢 <a href="https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=CHAOS">Atlas Cloud</a> 赞助本项目！Atlas Cloud 是一个全模态 AI 推理平台，让开发者通过统一的 AI API 访问视频生成、图像生成和 LLM API，无需分别维护多个厂商集成，即可调用 300+ 精选模型。CHAOS 已内置 Atlas Cloud 供应商预设，在设置里选择后填入 API Key 即可直接使用。Atlas Cloud 最新推出 <a href="https://www.atlascloud.ai/console/coding-plan">coding plan 优惠</a>，为开发者提供更具性价比的 API 访问预算。
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="https://www.apismart.ai">
+          <img src="docs/images/sponsors/apismart-logo.png" width="180" alt="ApiSmart">
+        </a>
+      </td>
+      <td valign="middle">
+        感谢 <a href="https://www.apismart.ai">ApiSmart</a> 赞助本项目！ApiSmart 通过单一 API 提供对主流 AI 模型的统一访问。只需一个 API Key，即可通过兼容 OpenAI 的接口连接大语言模型、图像模型和视频模型。轻松切换模型、简化账单管理，并通过智能路由和自动故障转移提升可靠性。
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## 安装桌面端
+
+1. 前往 [Releases](https://github.com/chapmanchao/CHAOS/releases) 下载 macOS / Windows / Linux 桌面端安装包。
+2. 首次启动后，在桌面端设置里配置模型提供商、API Key 和默认模型。
+3. 正式 macOS Release 需要经过签名和公证；如果安装的是 draft/unsigned 临时包，首次打开可能仍需手动放行。Windows 未签名安装包可能出现 SmartScreen 提示，点「更多信息」→「仍要运行」即可。详见 [桌面端安装指南](docs/start/install.md)。
+
+发布可信度与隐私：[Code signing policy](docs/start/code-signing.md) · [隐私与联网说明](docs/start/privacy.md)
+
+## 从源码启动 CLI
+
+适合想调试底层 CLI、服务端或自行开发的用户：
+
+```bash
+bun install
+cp .env.example .env
+./bin/claude-haha
+```
+
+更多配置见 [环境变量](docs/cli/env.md) 和 [命令行安装与启动](docs/cli/index.md)。
+
+---
+
+## 反馈与交流
+
+使用过程中有问题、想反馈 Bug，欢迎到 [Issues](https://github.com/chapmanchao/CHAOS/issues) 提问。
+
+---
+
+## 桌面端亮点
+
+- **多会话工作台**：标签页、项目切换、终端入口和会话历史集中管理，侧边栏宽度可拖拽。
+- **全局搜索**：按 Cmd+K 跨所有会话全文搜索，一键跳到命中位置。
+- **分支 / Worktree 启动**：新会话可以选择仓库分支，并决定用当前工作树还是隔离 Worktree。
+- **改动逐个文件审阅**：右侧工作区列出本轮改动，点开就是带语法高亮的 Diff，整轮可撤销。
+- **内置浏览器预览**：Agent 刚改完的页面直接在应用内渲染，登录态和 Cookie 真实可用。
+- **五档权限模式**：从「询问权限」到「跳过权限」，危险命令、工具调用和 AI 反问都在桌面端审批。
+- **模型自选**：Claude / ChatGPT / Grok 官方账号可直接登录；DeepSeek、Kimi、智谱 GLM 等第三方 API 有现成预设；LM Studio、Ollama 的本地模型也接得上。
+- **图片生成**：聊天中直接生成和编辑图片——ChatGPT / Grok 授权登录即可使用，也支持接入任意 OpenAI 兼容的 Images API。
+- **MCP 图形化管理**：界面化增删改 MCP Server，支持 STDIO / Streamable HTTP / SSE 三种传输方式与项目私有、共享、全局三种作用域。
+- **六套配色主题**：纯白、纸墨、经典暖色、青瓷、墨夜、墨夜蓝，可跟随系统深浅色自动切换。
+- **技能市场**：发现、预览、安装 ClawHub / SkillHub 的第三方技能，来源和安全状态摆在明处。
+- **会话活动面板**：集中查看任务进度、后台任务、SubAgent 与来源。
+- **可视化 SubAgent 管理**：图形界面创建和调校子代理，选择模型、工具与权限模式。
+- **Agent Teams 协作工作台**：桌面端可视化多 Agent 协作团队——成员、任务、通信流和依赖泳道一目了然。
+- **动态 Workflow 编排**：模型当场编写并运行编排脚本，并发或流水线调度多个子代理，支持阶段视图、中断与断点续跑。
+- **模型请求追踪**：本地记录每轮模型请求的状态与耗时，可搜索筛选，快速定位卡死或失败调用。
+- **Computer Use**：让 Agent 在授权后截图、点击、输入并控制桌面应用。
+- **桌面宠物**：搭搭、弧弧、补补、回回随任务状态换动作，也能自己做一只（默认关闭）。
+- **H5 远程访问**：扫码用手机浏览器接入当前会话，锁屏切后台都不打断正在跑的任务。
+- **IM 接入**：通过 Telegram / 飞书 / 微信 / 钉钉 / WhatsApp / 企业微信 / QQ / Slack 远程对话、切换项目和审批权限。
+- **定时任务与用量统计**：创建计划任务在独立会话执行，并查看本机 Token 使用趋势。
+
+---
+
+## 更多文档
+
+完整文档见项目 [docs](docs/) 目录。
+
+| 分区 | 文档 |
+|------|------|
+| **开始使用** | [这是什么](docs/start/index.md) · [下载与安装](docs/start/install.md) · [连接模型服务](docs/start/models.md) · [跑通第一条会话](docs/start/first-session.md) · [故障排查](docs/start/troubleshooting.md) |
+| **桌面端功能** | [功能总览](docs/desktop/index.md) · [Computer Use](docs/desktop/computer-use.md) · [桌面宠物](docs/desktop/pets.md) · [手机 H5 与 IM 接力](docs/desktop/remote.md) |
+| **IM 接入** | [总览与配对流程](docs/im/index.md) · [飞书](docs/im/feishu.md) · [Telegram](docs/im/telegram.md) · [微信](docs/im/wechat.md) · [钉钉](docs/im/dingtalk.md) · [WhatsApp](docs/im/whatsapp.md) · [企业微信](docs/im/wecom.md) · [QQ](docs/im/qq.md) · [Slack](docs/im/slack.md) |
+| **命令行** | [安装与启动](docs/cli/index.md) · [命令参考](docs/cli/reference.md) · [环境变量](docs/cli/env.md) |
+| **深入原理** | [桌面端架构](docs/internals/desktop.md) · [多 Agent 系统](docs/internals/agent.md) · [Skills 系统](docs/internals/skills.md) · [记忆系统](docs/internals/memory.md) · [Computer Use 架构](docs/internals/computer-use.md) · [本地 Server 与 API](docs/internals/server.md) · [Channel 系统](docs/internals/channel.md) · [项目结构](docs/internals/structure.md) · [参与贡献与质量门禁](docs/internals/contributing.md) |
+
+---
+
+## 技术栈
+
+| 类别 | 技术 |
+|------|------|
+| 语言 | TypeScript |
+| 桌面 APP | Electron |
+| 桌面 UI | React + Vite |
+| 本地运行时 | [Bun](https://bun.sh) |
+| 终端 UI | React + [Ink](https://github.com/vadimdemedes/ink) |
+| CLI 解析 | Commander.js |
+| API | Anthropic SDK |
+| 协议 | MCP, LSP |
+
+## 致谢
+
+感谢以下开源项目和社区实践为本项目提供参考与启发：
+
+- [React](https://github.com/facebook/react)：前端工程与组件化 UI 生态。
+- [Electron](https://github.com/electron/electron)：跨端桌面应用能力与工程实践。
+- [cc-switch](https://github.com/farion1231/cc-switch)：模型供应商配置能力参考。
+- [LINUX DO](https://linux.do/)：新的理想型开发者社区。
+
+---
+
+## ⭐ Star History
+
+如果这个项目对你有帮助，欢迎点一个 ⭐ Star，让更多人发现 CHAOS。
+
+<a href="https://www.repostars.dev/?repos=chapmanchao%2FCHAOS&theme=ocean">
+  <img alt="Star History Chart" src="https://www.repostars.dev/api/embed?repo=chapmanchao%2FCHAOS&theme=ocean" />
+</a>
